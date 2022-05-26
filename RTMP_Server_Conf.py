@@ -1,5 +1,6 @@
 ﻿# -*- coding:utf-8 -*-
 
+from calendar import c
 import socket 
 import hashlib
 import os
@@ -39,7 +40,7 @@ def CLI():
     cmd = "cd "+path + "\\nginx&&.\\nginx.exe -c \conf\RTMP.conf"
     return cmd
  
-def MAIN():
+def MAIN_CH():
     ip = Get_Host_IP()
     stream_name = input('键入直播流名称：')
     port = input('设置RTMP服务器服务端口（范围：0-65535；不可用特殊端口）：')
@@ -53,13 +54,33 @@ def MAIN():
     print('直播观看地址：rtmp://%s:%s/%s/%s'%(ip,port,stream_name,key))
     print('服务器状态查看地址：http://%s:%s/stat'%(ip,server_ststus_port,))
 
+def MAIN_EN():
+    ip = Get_Host_IP()
+    stream_name = input('Input Live Name：')
+    port = input('Set RTMP listen port（0-65535；Do not use the special Port）：')
+    max_connection = input('Set the maxium connections（If you don not know, please input：1024）：')
+    chunk = input('Set the chunk size（Do not set too big or small；If you don not know, please input：4096）：')
+    server_ststus_port = input('Set the server status port（0-65535；Do not use the special Port；If you don not know, please input：8080）：')
+    CONF_WRITE(max_connection,port,chunk,stream_name,server_ststus_port)
+    key = HASH(stream_name)
+    print('RTMP Stream Address：rtmp://%s:%s/%s'%(ip,port,stream_name))
+    print('Stream Key：%s'%(key))
+    print('Watching Address：rtmp://%s:%s/%s/%s'%(ip,port,stream_name,key))
+    print('Server status panel Address：http://%s:%s/stat'%(ip,server_ststus_port,))
 def run_cmd( cmd_str='', echo_print=1):
     if echo_print == 1:
         print('\n执行cmd指令="{}"'.format(cmd_str))
     run(cmd_str, shell=True)
 
 if __name__ == "__main__":
-    MAIN()
+    language = input('请选择语言-中文：C\nPlease Choose Language-English：E\n')
+    str(language)
+    if language == 'C' or language ==  'c':
+        MAIN_CH()
+    elif language == 'E' or language == 'e':
+        MAIN_EN()
+    else :
+        exit()
     run_cmd(CLI(),1)
 
 

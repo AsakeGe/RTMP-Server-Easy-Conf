@@ -1,0 +1,4 @@
+2022/05/26 20:06:04 [notice] 4360#17972: Fatal: wait for sockapi failed
+2022/05/26 20:06:47 [notice] 15720#22852: sockinit() attempting to access sockapi
+2022/05/26 20:06:47 [notice] 15720#22852: Access to sockapi succeded!
+2022/05/26 20:06:47 [notice] 15720#22852: using sockapi from "4;8;"
