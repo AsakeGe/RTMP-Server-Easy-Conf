@@ -1,4 +1,65 @@
-2022/05/26 20:06:04 [notice] 4360#17972: Fatal: wait for sockapi failed
-2022/05/26 20:06:47 [notice] 15720#22852: sockinit() attempting to access sockapi
-2022/05/26 20:06:47 [notice] 15720#22852: Access to sockapi succeded!
-2022/05/26 20:06:47 [notice] 15720#22852: using sockapi from "4;8;"
+2022/05/15 19:17:57 [notice] 8668#16456: sockinit() attempting to access sockapi
+2022/05/15 19:17:57 [notice] 8668#16456: Access to sockapi succeded!
+2022/05/15 19:17:57 [notice] 8668#16456: using sockapi from "4;164;"
+2022/05/15 19:18:10 [error] 8668#9084: *1 CreateFile() "C:\Users\x-oz\Desktop\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.233.3, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.233.3:8080", referrer: "http://192.168.233.3:8080/stat"
+2022/05/15 19:22:46 [emerg] 12784#15400: CreateFile() "C:\Users\x-oz\Desktop\nginx/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2022/05/15 19:23:36 [notice] 18736#2024: sockinit() attempting to access sockapi
+2022/05/15 19:23:36 [notice] 18736#2024: Access to sockapi succeded!
+2022/05/15 19:23:36 [notice] 18736#2024: using sockapi from "4;84;"
+2022/05/15 19:29:24 [error] 18736#9072: *11 CreateFile() "C:\Users\x-oz\Desktop\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.233.3, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.233.3:8080", referrer: "http://192.168.233.3:8080/stat"
+2022/05/15 19:42:28 [notice] 12212#3468: sockinit() attempting to access sockapi
+2022/05/15 19:42:28 [notice] 12212#3468: Access to sockapi succeded!
+2022/05/15 19:42:28 [notice] 12212#3468: using sockapi from "4;96;"
+2022/05/15 19:43:54 [notice] 14736#8128: sockinit() attempting to access sockapi
+2022/05/15 19:43:54 [notice] 14736#8128: Access to sockapi succeded!
+2022/05/15 19:43:54 [notice] 14736#8128: using sockapi from "4;80;"
+2022/05/15 19:45:32 [error] 14736#11492: *5 CreateFile() "C:\Users\x-oz\Desktop\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/stat"
+2022/05/15 19:48:49 [notice] 16772#13208: sockinit() attempting to access sockapi
+2022/05/15 19:48:49 [notice] 16772#13208: Access to sockapi succeded!
+2022/05/15 19:48:49 [notice] 16772#13208: using sockapi from "4;80;"
+2022/05/15 19:50:18 [notice] 11864#5988: sockinit() attempting to access sockapi
+2022/05/15 19:50:18 [notice] 11864#5988: Access to sockapi succeded!
+2022/05/15 19:50:18 [notice] 11864#5988: using sockapi from "4;8;"
+2022/05/15 19:50:22 [notice] 11764#10064: sockinit() attempting to access sockapi
+2022/05/15 19:50:22 [notice] 11764#10064: Access to sockapi succeded!
+2022/05/15 19:50:22 [notice] 11764#10064: using sockapi from "4;8;"
+2022/05/15 19:51:08 [notice] 11036#15484: sockinit() attempting to access sockapi
+2022/05/15 19:51:08 [notice] 11036#15484: Access to sockapi succeded!
+2022/05/15 19:51:08 [notice] 11036#15484: using sockapi from "4;80;"
+2022/05/15 20:35:21 [notice] 5936#12160: sockinit() attempting to access sockapi
+2022/05/15 20:35:21 [notice] 5936#12160: Access to sockapi succeded!
+2022/05/15 20:35:21 [notice] 5936#12160: using sockapi from "4;136;"
+2022/05/15 21:14:53 [notice] 7436#6308: sockinit() attempting to access sockapi
+2022/05/15 21:14:53 [notice] 7436#6308: Access to sockapi succeded!
+2022/05/15 21:14:53 [notice] 7436#6308: using sockapi from "4;84;"
+2022/05/17 20:16:49 [notice] 27808#22836: sockinit() attempting to access sockapi
+2022/05/17 20:16:49 [notice] 27808#22836: Access to sockapi succeded!
+2022/05/17 20:16:49 [notice] 27808#22836: using sockapi from "4;8;"
+2022/05/17 20:31:38 [notice] 12784#8300: sockinit() attempting to access sockapi
+2022/05/17 20:31:38 [notice] 12784#8300: Access to sockapi succeded!
+2022/05/17 20:31:38 [notice] 12784#8300: using sockapi from "4;8;"
+2022/05/17 20:32:31 [notice] 21416#21872: sockinit() attempting to access sockapi
+2022/05/17 20:32:31 [notice] 21416#21872: Access to sockapi succeded!
+2022/05/17 20:32:31 [notice] 21416#21872: using sockapi from "4;8;"
+2022/05/17 20:32:50 [notice] 14080#26272: sockinit() attempting to access sockapi
+2022/05/17 20:32:50 [notice] 14080#26272: Access to sockapi succeded!
+2022/05/17 20:32:50 [notice] 14080#26272: using sockapi from "4;8;"
+2022/05/25 21:28:25 [notice] 9916#13436: sockinit() attempting to access sockapi
+2022/05/25 21:28:25 [notice] 9916#13436: Access to sockapi succeded!
+2022/05/25 21:28:25 [notice] 9916#13436: using sockapi from "4;8;"
+2022/05/25 21:49:01 [notice] 1100#5932: sockinit() attempting to access sockapi
+2022/05/25 21:49:01 [notice] 1100#5932: Access to sockapi succeded!
+2022/05/25 21:49:01 [notice] 1100#5932: using sockapi from "4;8;"
+2022/05/25 21:49:18 [notice] 2520#20720: sockinit() attempting to access sockapi
+2022/05/25 21:49:18 [notice] 2520#20720: Access to sockapi succeded!
+2022/05/25 21:49:18 [notice] 2520#20720: using sockapi from "4;8;"
+2022/05/25 21:50:22 [notice] 20828#14692: sockinit() attempting to access sockapi
+2022/05/25 21:50:22 [notice] 20828#14692: Access to sockapi succeded!
+2022/05/25 21:50:22 [notice] 20828#14692: using sockapi from "4;8;"
+2022/05/25 21:54:40 [notice] 17048#4748: sockinit() attempting to access sockapi
+2022/05/25 21:54:40 [notice] 17048#4748: Access to sockapi succeded!
+2022/05/25 21:54:40 [notice] 17048#4748: using sockapi from "4;8;"
+2022/05/25 21:55:00 [error] 17048#4544: *1 CreateFile() "D:\Project\RTMP\RTMP_Server_Conf\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/"
+2022/05/25 21:55:29 [notice] 7936#18524: sockinit() attempting to access sockapi
+2022/05/25 21:55:29 [notice] 7936#18524: Access to sockapi succeded!
+2022/05/25 21:55:29 [notice] 7936#18524: using sockapi from "4;8;"
